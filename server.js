@@ -14,7 +14,7 @@ app.use(cors());
 app.use(express.json({ limit: '10mb' }));
 
 // Healthcheck
-app.get('/', (req, res) => {https://github.com/victordisette/GEO-RN-BACK.git
+app.get('/', (req, res) => {https:
   res.json({ status: 'ok', message: 'Geo Backend API' });
 });
 
